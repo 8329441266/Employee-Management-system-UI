@@ -1,0 +1,51 @@
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 0;
+}
+.welcome{
+    display: flex;
+    align-items: center;
+    background: rgb(226, 101, 12);
+    justify-content: space-around;
+    color: white;
+    margin: 0px;
+    width: 100%;
+
+}
+button{
+    background: rgb(226, 101, 12);
+    color: white;
+    border: 0;
+    outline: 0;
+    padding: 15px;
+    font-size: 17px;
+    cursor: pointer;
+   
+}
+.option{
+    margin-top: 80px;
+    margin-right: 75%;
+
+}
+table, th, td {
+    border: 1px solid black;
+    margin-top: 40px;
+}
+.edit,.delete{
+  margin: 10px;
+  justify-content: center;
+  text-align: center;
+}
+.table{
+    overflow-y: auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+

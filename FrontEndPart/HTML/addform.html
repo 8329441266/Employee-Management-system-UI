@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title></title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="../CSS/addform.css">
+    <script src="../validation/validate.js"></script>
+    <script src="../Js/add.js"></script>
+   
+    
+</head>
+<body>
+    
+    <div class="form">
+        <h1> Add Employee </h1>
+        <form class="register-form">
+            <input id="firstName"  type="text" placeholder="First Name">
+            <span  id="firstNamerequired"></span>
+            <input id="lastName" type="text" placeholder="Last Name">
+            <span  id="lastNamerequired"></span>
+            <input id="emailId" type="text" placeholder="Email Address">
+            <span  id="emailIdrequired"></span>
+            <input id="mobileNumber" type="text" placeholder="Mobile Number">
+            <span  id="mobileNumberrequired"></span>
+            <input  id="companyName" type="text" placeholder="Company Name">
+            <span  id="companyNamerequired"></span>
+            <input id="salary" placeholder="Salary">
+          
+            
+        </form>
+        <button class="button" onclick="check()">Submit</button>
+    </div>
+   
+</body>
+<script>
+    function check(){
+    if(validate())
+    postData();
+    
+}
+</script>
+</html>

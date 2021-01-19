@@ -1,0 +1,28 @@
+[
+    {
+        "firstName": "Sadashiv",
+        "lastName": "Ingale",
+        "emailId": "sadashivingale7@gmail.com",
+        "mobileNumber": "8308567004",
+        "companyName":"IDS",
+        "salary":35000
+    },
+
+    {
+        "firstName": "Ram",
+        "lastName": "Ingale",
+        "emailId": "ramingale8@gmail.com",
+        "mobileNumber": "9767167590",
+        "companyName":"TIAA",
+        "salary":52000
+    },
+    
+    {
+        "firstName": "Sopan",
+        "lastName": "Ingale",
+        "emailId": "sopaningale1@gmail.com",
+        "mobileNumber": "8459805858",
+        "companyName":"Info",
+        "salary":"N/A"
+    }
+]
